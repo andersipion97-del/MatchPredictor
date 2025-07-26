@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import datetime as dt
 from models.predictor import (
     resumen_head_to_head, 
     obtener_partidos_equipo,
